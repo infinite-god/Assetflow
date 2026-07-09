@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/ASSET/CSS/signup.css">
+    <title>Document</title>
+</head>
+<body class="flex bg-[#121212] justify-center items-center min-h-screen">
+     <header>
+        <div class="bg-blue-200 w-70 h-15 mb-3 "></div>
+        <div>
+        <section>
+            <nav>
+                <h2>Create an account</h2>
+                <p>Enter your details below to create your account</p>
+            
+            <form>
+                <div class="form">
+                    <label for="Full-Name" class="text">Full Name</label>
+                    <input type="text" id="fullname" placeholder="Full name" class="input">
+                </div>
+                <div class="form">
+                    <label for="Gender" class="text">Gender</label>
+                      <select  class="input">
+                      <option value="">Select Gender...</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      </select>
+                </div>
+                  <div class="form">
+                    <label for="Email-address" class="text">Email address</label>
+                    <input type="email" placeholder="email@example.com" class="input">
+                </div>
+                  <div class="form">
+                    <label for="Contact-Phone" class="text">Contact Phone</label>
+                    <input type="tel"  placeholder="09139984468" class="input">
+                </div>
+                  <div class="form">
+                    <label for="Password" class="text">Password</label>
+                    <input type="password"  placeholder="password" class="input">
+                </div>
+                  <div class="form" id="mySubmit">
+                    <label for="Confirm-password" class="text">Confirm password</label>
+                    <input type="password"  placeholder="Confirm password" class="input">
+                  </div>
+            </form>
+                             <div class="btn">
+                    <button>
+                        <p>
+                            <a href="signup.html">Create account</a>
+                        </p>
+                    </button>
+                     <div>
+                        <p id="noaccount">Already have an account? <a href="login.html" class="loginpage">Log in</a></p>
+                        </div>
+                        </div>
+            </nav>
+         
+        </section>
+
+    </header>
+    </div>
+</body>
+</html>
