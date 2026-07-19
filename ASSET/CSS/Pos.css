@@ -1,3 +1,6 @@
  body {
     font-family: 'Poppins', sans-serif;
 }
+#Scrollbar-1{
+scrollbar-color: gray #121212;
+}

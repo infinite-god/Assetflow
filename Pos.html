@@ -8,11 +8,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="/ASSET/CSS/login.css">
+     <link rel="stylesheet" href="/ASSET/CSS/pos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
      <title>Document</title>
 </head>
-<body class="flex bg-[#121212] flex flex-row min-h-screen">
+<body class="flex bg-[#121212] flex-row min-h-screen">
     <div class="w-120 bg-[#171717] border border-white/15   flex flex-col h-screen p-4">
         <nav class="w-full h-18 bg-gray-700"></nav>
         <nav class="w-full h-12 bg-gray-700 mt-4"></nav>
@@ -22,13 +22,114 @@
     <div class="w-full bg-[#262626] border p-3 border-white/15  h-screen">
         <div class="w-full border border-red-500 flex flex-row p-2">
             <div class="w-20 h-12 bg-gray-700">Logo</div>
-            <input type="text" class="w-full h-12 bg-white ml-2 mr-6">
+             <div class="w-full h-12 bg-red-500 ml-2 mr-4 flex flex-row">
+                <div class="w-20 h-12 bg-gray-700"></div>
+                <input type="text" class="w-full h-12 bg-white ">
+            </div>
             <button class="w-40 flex flex-row items-center justify-center gap-4 h-12 bg-[#525252] rounded-lg text-white">
                 <i class="fa-solid fa-arrows-rotate text-xl"></i>
                 <p>Refresh</p>
-            </button>
+            </button>      
         </div>
+            <hr class="w-full border-t border-white/50 my-6">
+            <div class="flex flex-row gap-3 items-center ">
+                <hr class="flex-1 border-t border-white/50 my-6">
+                <p class="text-white text-sm">CATEGORIES</p>
+                <hr class="flex-1 border-t border-white/50 my-6">
+            </div>
+               <section class=" flex flex-row p-3 gap-x-9  w-220 overflow-x-auto overflow-y-hidden scroll-smooth " id="Scrollbar-1">
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">ALL PRODUCTS</button>
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">DI PRINTING</button>
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">LARGE FORMATS</button>
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">PHOTOGRAPH</button>
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">DI PRINTING</button>
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">PHOTOGRAPH</button>
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">DI PRINTING</button>
+                <button class="h-14 w-70 whitespace-nowrap p-2 text-xs text-[#155DFC] border border-[#155DFC] rounded-lg active:bg-[#155DFC]/50">PHOTOGRAPH</button>
+             </section>
+              <div class="flex flex-row gap-3 items-center ">
+                <hr class="flex-1 border-t border-white/50 my-6">
+                <p class="text-white text-sm">PRODUCTS</p>
+                <hr class="flex-1 border-t border-white/50 my-6">
+            </div>
+            <div class="w-220 h-88 content-start grid grid-cols-6 gap-4 overflow-x-hidden overflow-y-auto scroll-smooth">
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Custom</p>
+                    <p class="font-light text-base">Item</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;0.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">A3 Black</p>
+                    <p class="font-light text-base">and White...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;400.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">A3</p>
+                    <p class="font-light text-base">Colored...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;800.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">A4 Black</p>
+                    <p class="font-light text-base">and White...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;200.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base"></p>
+                    <p class="font-light text-base">A4 Colored</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;400.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Lamination</p>
+                    <p class="font-light text-base">A4</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;400.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Passport</p>
+                    <p class="font-light text-base">Photogra...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;1000.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Passport</p>
+                    <p class="font-light text-base">Photogra...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;1500.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Print</p>
+                    <p class="font-light text-base">Banner...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;250.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Print</p>
+                    <p class="font-light text-base">Sticker...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;450.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Print</p>
+                    <p class="font-light text-base">Sticker...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;300.00</p>
+                </button>    
+                <button class="w-31 h-31 rounded-lg bg-[#0C4A6E] border border-[#155DFC] p-4 justify-center flex items-center text-white flex-col gap-y-1">
+                    <p class="font-light text-base">Print</p>
+                    <p class="font-light text-base">Window...</p>
+                    <hr class="w-full border-t border-white/50">
+                    <p>&#8358;400.00</p>
+                </button>    
+                 
+                
+            </div>
     </div>
+     
     <div class="w-200 bg-[#171717] flex flex-col border border-white/15 h-screen">
         <section class="w-full h-18 flex flex-row">
             <nav class="w-full h-18 bg-[#171717] opacity-45 font-light text-gray-100 justify-center items-center border border-white/15 flex flex-col">
